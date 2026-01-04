@@ -16,7 +16,6 @@
 
 import board
 import adafruit_dht
-# pip3 install Adafruit-DHT==1.4.0
 
 pin = board.D4
 dht = adafruit_dht.DHT11(pin, use_pulseio=False)
